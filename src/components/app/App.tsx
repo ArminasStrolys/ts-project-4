@@ -1,6 +1,7 @@
 import { Parent } from '../props/Parent';
 import { GuestList } from '../state/GuestList';
 import UserSearch from '../state/UserSearch';
+import EventComponents from '../events/EventComponents';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <br />
       <p>Search:</p>
       <UserSearch />
+      <EventComponents />
     </div>
   );
 }
